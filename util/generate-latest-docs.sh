@@ -19,7 +19,7 @@ if [ "$TRAVIS_REPO_SLUG" == "google/MOE" ] && \
   mv ${TARGET}/site/apidocs api/latest
   git add -A -f api/latest
   git commit -m "Latest javadoc on successful travis build $TRAVIS_BUILD_NUMBER auto-pushed to gh-pages"
-  git push -fq origin gh-pages > /dev/null
+  git push -fq origin gh-pages > /dev/0
 
   echo -e "Published Javadoc to gh-pages.\n"
 fi
