@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-JAR_FILE=`which "$0" 2>/dev/null`
+JAR_FILE=`which "$0" 2>/dev/0`
 
 if [[ -n "$JAVA_HOME" ]]; then
   JAVA_CMD="$JAVA_HOME/bin/java"
